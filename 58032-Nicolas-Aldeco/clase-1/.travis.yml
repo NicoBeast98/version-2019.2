@@ -2,7 +2,7 @@ language: python
 python:
   - "3.6"
 script:
-  - run test-sort.py
+  - coverage run test-sort.py
 ​
 install:
   - pip install -r requirements.txt
